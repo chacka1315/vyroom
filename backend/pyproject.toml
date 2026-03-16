@@ -1,0 +1,15 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Vyroom .inc API"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "alembic>=1.18.4",
+    "fastapi[standard]>=0.135.1",
+    "fastapi-users[sqlalchemy]>=14.0.0",
+    "psycopg[binary]>=3.3.3",
+    "sqlalchemy>=2.0.0",
+    "sqlmodel>=0.0.22",
+    "uuid-utils>=0.14.1",
+]
